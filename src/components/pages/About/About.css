@@ -1,0 +1,58 @@
+body {
+    font-family: roboto, sans-serif;
+    background: white;
+}
+
+/* MAIN */
+.content {
+    width: 98%;
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: #d2d198;
+}
+
+#aboutme_content_text {
+    width: 56%;
+    margin: 2% auto;
+}
+
+#aboutme_content_text h2 {
+    font-size: 1.2rem;
+    margin: 3% 2% 5%;
+}
+
+#aboutme_content_text p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    margin: 2%;
+}
+
+#aboutme_content_photo {
+    width: 36%;
+    height: 400px;
+    text-align: center;
+    margin: 2%;
+    margin-left: 0px;
+}
+
+#aboutme_content_photo img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    #aboutme_content_text, #aboutme_content_photo {
+        width: 100%;
+        text-align: center;
+    }
+}

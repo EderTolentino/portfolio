@@ -1,0 +1,139 @@
+/* FOOTER */
+
+footer {
+    width: calc(100% - 40px);
+    margin: 0px 20px 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #261621;
+    font-family: roboto, sans-serif;
+}
+
+#footer_left {
+    width: 60%;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+
+/* MEDIA */
+#footer_right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fafooter {
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fafooter:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background-color: #261621;
+    color: white;
+    font-size: 35px;
+}
+
+.fa-linkedin {
+    background: #261621;
+    color: white;
+    font-size: 35px;
+}
+
+.fa-github {
+    background: #261621;
+    color: white;
+    margin-right: 50px;
+    font-size: 35px;
+}
+
+
+
+/* BUTTON TO TOP */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 45px;
+    background-color: #000;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.btn::after {
+    content: "↑";
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    #footer_left {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .fa-github {
+        margin-right: 0px;
+    }
+
+    /* MEDIA */
+    #footer_right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .fafooter {
+        padding: 7px;
+    }
+
+    .btn {
+        width: 25px;
+        height: 35px;
+    }
+
+    .btn::after {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    .fafooter {
+        padding: 4.5px;
+    }
+
+
+}

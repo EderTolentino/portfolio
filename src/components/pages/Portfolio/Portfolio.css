@@ -1,0 +1,66 @@
+/* content PROJECTS*/
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.content {
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    min-height: calc(100% - 150px);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A0522D;
+}
+
+.content h1 {
+    width: 98%;
+    font-family: roboto, sans-serif;
+    font-size: 1.7rem;
+    margin: 2.2%;
+    text-align: center;
+}
+
+
+/*  RESPONSIVIDADE */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .content h1 {
+        font-size: 1.7rem;
+    }
+
+    .content_text h3 {
+        font-size: 1rem;
+    }
+
+    .content_text p {
+        font-size: 0.75rem;
+        line-height: 0.85rem;
+        text-indent: 2rem;
+    }
+}
+
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    .content_project {
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content_text h3 {
+        font-size: 0.8rem;
+    }
+
+    .content_text p {
+        font-size: 0.6rem;
+        line-height: 0.7rem;
+        text-indent: 2rem;
+    }
+}

@@ -1,0 +1,264 @@
+/* MENU DROPDOWN */
+body {
+    font-family: roboto, sans-serif;
+}
+
+#header_container {
+    height: 100px;
+    width: calc(100% - 40px);
+    margin: 20px 20px 0px;
+    background-color: #261621;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: roboto, sans-serif;
+}
+
+/* MY NAME */
+#header_container_left {
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+#header_content_left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header_container_left #logo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header_container_left #logo img {
+    max-height: 100px;
+}
+
+#header_container_left #name {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#header_container_left #name h2 {
+    display: inline-block;
+    width: 100%;
+    margin: 1% auto;
+    font-family: roboto, sans-serif;
+    font-size: 0.7rem;
+}
+
+#header_container_left #name p {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    margin: 0px auto;
+    font-family: roboto, sans-serif;
+    font-size: 0.6rem;
+}
+
+#header_container_right {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header_container_right ul {
+    width: 100%;
+    padding: 0px;
+    z-index: 10;
+}
+
+#header_container_right ul#menu-desktop li {
+    width: 14%;
+    height: 25px;
+    float: right;
+    display: inline;
+    margin: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-family: roboto, sans-serif;
+    font-size: 0.6rem;
+    border: 2px solid white;
+}
+
+#header_container_right ul#menu-desktop #select {
+    width: 9%;
+    margin-left: 20px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+
+#header_container_right ul#menu-desktop li:hover {
+    background-color: white;
+}
+
+#header_container_right ul#menu-desktop li:hover a{
+    color: black;
+    height: 25px;
+}
+
+#header_container_right ul#menu-desktop li:hover ul li a{
+    border: 1px solid white;
+}
+
+#header_container_right ul#menu-desktop li a {
+    text-decoration: none;
+    color: white;
+}
+
+#header_container_right ul li span {
+    display: none;
+}
+
+#header_container_right ul img {
+    height: 20px;
+    margin-top: 2.5px;
+}
+
+#header_container_right ul li #arrow {
+    width: 15px;
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: #261621;
+    color: white;
+}
+
+#header_container_right ul#menu-desktop ul {
+    display: none;
+}
+
+#header_container_right ul#menu-desktop li:hover ul {
+    display: block;
+}
+
+#header_container_right ul#menu-desktop li ul li {
+    width: 100%;
+    height: 26px;
+    margin-top: -5px;
+    margin-right: -2px;
+}
+
+#header_container_right ul#menu-desktop li ul li a {
+    display: block;
+    clear: both;
+    background-color: white;
+}
+
+#header_container_right ul#menu-desktop ul li a img {
+    height: 20px;
+    margin-top: 2.5px;
+}
+
+
+#header_container_right ul#menu-desktop li ul li a:hover  {
+    height: 26px;
+    background-color: #261621;
+}
+
+
+#header_container_right div#menu-btn {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+
+#header_container_right div#menu-btn  {
+    display: none;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+    #header_container_left {
+        width: 60%;
+        max-height: 100px;
+    }
+
+    #header_container_right {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #header_container_right ul li {
+
+    }
+
+    #header_container div#menu-btn {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        height: 30px;
+        width: 30px;
+    }
+
+    #header_container #menu-desktop {
+        display: none;
+    }
+
+    #header_container ul#menu-mobile {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    #header_container ul#menu-mobile li {
+        display: block;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    #header_container ul#menu-mobile li span {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: white;
+        border-bottom: 1px solid #111;
+        padding: 0.5% 0%;
+    }
+
+    #header_container ul#menu-mobile li span img {
+        display: inline-block;
+    }
+
+    #header_container ul#menu-mobile li span span {
+        display: none;
+    }
+
+    #header_container ul#menu-mobile li a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        background-color: white;
+        border-bottom: 1px solid #111;
+        padding: 1% 0%;
+
+    }
+
+    #header_container_right ul#menu-mobile li ul li {
+        width: 100%;
+
+    }
+
+    #header_container_right ul#menu-mobile li ul li a {
+        text-align: center;
+        width: 100%;
+        padding: 0.5% 0%;
+    }
+}

@@ -1,0 +1,75 @@
+/* MAIN */
+body {
+    font-family: roboto, sans-serif;
+}
+
+#content {
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    background-color:rgb(232,232,232);
+}
+
+#content h2 {
+    font-family: roboto, sans-serif;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+.frontEnd, .backEnd, .tools, .interests {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frontEndColor {
+    background-color: #b9d8f4;
+}
+
+.backEndColor {
+    background-color: #5e99d1;
+}
+
+.toolsColor {
+    background-color: #e4587f;
+}
+
+.interestsColor {
+    background-color: #d85953;
+}
+
+.apps {
+    width: 10%;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+.html {
+    text-align: center;
+}
+
+.apps h4 {
+    font-family: roboto, sans-serif;
+    font-size: 0.7rem;
+    margin: 4%;
+}
+
+.apps img {
+    max-height: 40%;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    .apps {
+        width: 30%;
+    }
+
+}

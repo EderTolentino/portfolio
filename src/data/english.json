@@ -1,0 +1,213 @@
+{
+  "language": "ENGLISH",
+  "header_name": "EDER TOLENTINO",
+  "header_job": "Jr Web Developer",
+  "header_home": "HOME",
+  "header_aboutme": "ABOUT ME",
+  "header_portfolio": "PORTFOLIO",
+  "header_contacts": "CONTACTS",
+  "header_flag": "_img/english.jpg",
+  "header_language": "ENGLISH",
+
+  "home_frontEnd": "FRONT-END",
+  "home_html5": "HTML5",
+  "home_css3": "CSS3",
+  "home_javaScript": "JAVASCRIPT",
+  "home_responsive": "RESPONSIVE",
+  "home_bootstrap": "BOOTSTRAP",
+  "home_jQuery": "JQUERY",
+  "home_ajax": "AJAX",
+  "home_backEnd": "BACK-END",
+  "home_php": "PHP",
+  "home_c": "C",
+  "home_database": "DATABASE",
+  "home_git": "GIT",
+  "home_github": "GITHUB",
+  "home_tools": "TOOLS",
+  "home_brackets": "BRACKETS",
+  "home_visualStudio": "VISUAL STUDIO",
+  "home_netBeans": "NETBEANS",
+  "home_naviCat": "NAVICAT",
+  "home_xampp": "XAMPP",
+  "home_nextSteps": "NEXT INTERESTS",
+  "home_seo": "SEARCH ENGINE OPTIMIZATION",
+  "home_nodeJS": "NODEJS",
+  "home_java": "JAVA",
+  "home_python": "PYTHON",
+
+  "aboutme_title": "ABOUT ME",
+  "aboutme_p1": "My name is Eder Tolentino, I am 34 years old and I was born in Belo Horizonte, Brazil.",
+  "aboutme_p2": "I am a mining engineer with a master's degree in geology from the Universidade Federal de Minas Gerais. Passionate about web development, I've been self-studying some languages. So far, I have good knowledge in HTML5, CSS3, JavaScript, PHP, C, SQL, Bootstrap, jQuery, Git, Github and I'm starting to study Java.",
+  "aboutme_p3": "I consider myself a fast learner and I have good problem solving and algorithm implementation skills. ",
+  "aboutme_p4": "I'm currently a student at 42 Lisbon and I'm looking for my first job as a Junior Web Developer.",
+  "aboutme_img": "Photo by Eder Tolentino",
+
+  "portfolio": {
+    "title1": "UPSKILL PRJECTS",
+    "upskill": [],
+    "title2": "PERSONAL PROJECTS",
+    "personalProjects": [
+      {
+        "id": "m01",
+        "name": "testeConjugaison",
+        "img": "Cover image of Test de Conjugaison",
+        "project": "ABOUT IT",
+        "project_name": "TEST DE CONJUGAISON",
+        "about_1": "Website created with the intention of learning to conjugate verbs in French and practising a bit of JavaScript and CSS at the same time.",
+        "about_2": "I learned a lot about the importance of using functions to reduce the size of code and make it easier to maintain.",
+        "about_3": "Some improvements still need to be made on the conjugation of pronominal verbs, so that the entry of the verb and its conjugations are given with their respective pronouns."
+      },
+      {
+        "id": "m02",
+        "name": "lesParoles",
+        "img": "Cover image of Les Paroles",
+        "project": "ABOUT IT",
+        "project_name": "LES PAROLES",
+        "about_1": "Website created to learn some vocabulary of other languages through music and practice some PHP and Database.",
+        "about_2": "I was able to improve my knowledge of AJAX to access the database via PHP and use the JSON file in JavaScript. In addition, I learned how to do content translation through language selection.",
+        "about_3": "I still want to improve the layout a bit and put some more songs that I like."
+      },
+      {
+        "id": "m03",
+        "name": "poliglota",
+        "img": "Cover image of Poliglota",
+        "project": "ABOUT IT",
+        "project_name": "POLIGLOTA",
+        "about_1": "Initially created to learn French vocabulary, I decided to add English and Spanish, as I also want to improve my vocabulary in these languages. Then I decided to add Italian, German, Chinese and Russian, as they are languages that I am interested to learn in the future.",
+        "about_2": "I practiced a lot of CSS, JavaScript, PHP, Database and AJAX, besides learning a little more French, which was the only language that I checked the translation of most of the content, the others I just translated using the Reverso dictionary.",
+        "about_3": "I want to make some improvements like: adding images, a button to go back to the previous word, improving the layout, checking translations and putting some command that allows to start a category in a specific point, to make possible to stop and continue in another moment."
+      }
+    ],
+    "title3": "PROJECTS MADE IN COURSES",
+    "courseProjects": [
+      {
+        "id": "e01",
+        "name": "pizzariaFontenelle",
+        "img": "Cover image of Pizzaria Fontenelle",
+        "project": "ABOUT IT",
+        "project_name": "PIZZARIA FONTENELLE",
+        "about_1": "Project developed in the CSS3 course from Imedia Brasil on Udemy's platform. It consists of the homepage of a fictional pizzeria.",
+        "about_2": "This course was very useful to learn the commands: transition, transform, position, object fit and media queries.",
+        "about_3": "I have already used many of the resources I learned in this project in my own projects and in my portfolio."
+      },
+      {
+        "id": "e02",
+        "name": "andesLogin",
+        "img": "Cover image of Andes Login",
+        "project": "ABOUT IT",
+        "project_name": "Andes - login and product list",
+        "about_1": "Project developed in the course of PHP - INTEGRAÇÃO COM BANCO DE DADOS from Imedia Brasil on Udemy's platform. Uses a fictitious company to teach how to make the connection between PHP and MySQL, besides presenting commands like include, require, session variables, encode change, form submission, among others.",
+        "about_2": "In this part of the project you can access the login page, the product listing, the details of each product and the logout page.",
+        "about_3": "To login, you must enter the data placed in the placeholder."
+      },
+      {
+        "id": "e07",
+        "name": "bootstrap",
+        "img": "Cover image of Bootstrap Training",
+        "project": "ABOUT IT",
+        "project_name": "BOOTSTRAP TRAINIG",
+        "about_1": "This page was made in the course CRIANDO UM SITE COM BOOTSTRAP 4 by Professor Ricardo Sanches, available on his YouTube channel.",
+        "about_2": "In this project it was taught how to use bootstrap commands like: Navbar, Carousel, Scrollspay, Thumbnail, Modal, Nav Pills, Jumbotron, dentre outros.",
+        "about_3": "Although I think bootstrap makes page building much easier and results in a very nice layout, I have preferred not to use it, because at this beginning I want to improve my programming skills without these resources."
+      },
+      {
+        "id": "e08",
+        "name": "jogoDaVelha",
+        "img": "Cover image of Jogo da Velha",
+        "project": "ABOUT IT",
+        "project_name": "HASH",
+        "about_1": "This page was made through the CANAL FESSOR BRUNO - CFB CURSOS, in which Professor Bruno teaches how to create some popular games using several programming languages.",
+        "about_2": "This project consists of the creation of a tic-tac-toe game programmed in JavaScript.",
+        "about_3": "I took this course when I was starting to study web development and it helped me a lot to fix some concepts of programming logic and JavaScript."
+      },
+      {
+        "id": "e09",
+        "name": "pingPong",
+        "img": "Cover image of Ping Pong",
+        "project": "ABOUT IT",
+        "project_name": "PING PONG",
+        "about_1": "This page was made through the CANAL FESSOR BRUNO - CFB CURSOS, in which Professor Bruno teaches how to create some popular games using several programming languages.",
+        "about_2": "This project consists of creating a ping pong game programmed in JavaScript.",
+        "about_3": "The game works, but I think it could be improved to a more difficult level and to work on a mobile version. Despite the shortcomings, it was very valid for my learning."
+      },
+      {
+        "id": "e10",
+        "name": "horaDoDia",
+        "img": "Cover image of Hora do Dia",
+        "project": "ABOUT IT",
+        "project_name": "HORA DO DIA",
+        "about_1": "This page is part of a sequence of five exercises done in the CURSO DE JAVA SCRIPT of the CURSO EM VÍDEO channel of Professor Gustavo Guanabara. This course was very useful to start learning how to edit CSS inside JavaScript functions.",
+        "about_2": "Although simple, this course was very didactic to learn the concepts that were proposed.",
+        "about_3": "This first exercise basically accesses the Date() function and associates a photo of the respective time of day to the morning, afternoon or evening."
+      },
+      {
+        "id": "e11",
+        "name": "idadeDaPessoa",
+        "img": "Cover image of Idade da Pessoa",
+        "project": "ABOUT IT",
+        "project_name": "IDADE DA PESSOA",
+        "about_1": "This page is part of a sequence of five exercises done in the CURSO DE JAVA SCRIPT of the CURSO EM VÍDEO channel of Professor Gustavo Guanabara. This course was very useful to start learning how to edit CSS inside JavaScript functions.",
+        "about_2": "Although simple, this course was very didactic to learn the concepts that were proposed.",
+        "about_3": "This second exercise has as input data the year of birth and the gender of the person, resulting in the age of the person, associated with a photo of someone of an approximate age."
+      },
+      {
+        "id": "e12",
+        "name": "vamosContar",
+        "img": "Cover image of Vamos Contar",
+        "project": "ABOUT IT",
+        "project_name": "VAMOS CONTAR",
+        "about_1": "This page is part of a sequence of five exercises done in the CURSO DE JAVA SCRIPT of the CURSO EM VÍDEO channel of Professor Gustavo Guanabara. This course was very useful to start learning how to edit CSS inside JavaScript functions.",
+        "about_2": "Although simple, this course was very didactic to learn the concepts that were proposed.",
+        "about_3": "This third exercise has as input a start number, an end number and a step value, giving as result a numerical sequence between start and end, with an interval equal to the step."
+      },
+      {
+        "id": "e13",
+        "name": "tabuada",
+        "img": "Cover image of Tabuada",
+        "project": "ABOUT IT",
+        "project_name": "TABUADA",
+        "about_1": "This page is part of a sequence of five exercises done in the CURSO DE JAVA SCRIPT of the CURSO EM VÍDEO channel of Professor Gustavo Guanabara. This course was very useful to start learning how to edit CSS inside JavaScript functions.",
+        "about_2": "Although simple, this course was very didactic to learn the concepts that were proposed.",
+        "about_3": "This fourth project in this course has as input a number and as output a list of the multiplication table of this number multiplied between 1 and 100."
+      },
+      {
+        "id": "e14",
+        "name": "analisador",
+        "img": "Cover image of Analisador de Números",
+        "project": "ABOUT IT",
+        "project_name": "ANALISADOR DE NÚMEROS",
+        "about_1": "This page is part of a sequence of five exercises done in the CURSO DE JAVA SCRIPT of the CURSO EM VÍDEO channel of Professor Gustavo Guanabara. This course was very useful to start learning how to edit CSS inside JavaScript functions.",
+        "about_2": "Although simple, this course was very didactic to learn the concepts that were proposed.",
+        "about_3": "This is the fifth and last exercise of this course and allows you to enter several numbers and, at the end, have an analysis of the amount of numbers, smallest value, largest value, sum and average."
+      },
+      {
+        "id": "e15",
+        "name": "projetoUsuarios",
+        "img": "Cover image of Projeto Usuários",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO USUÁRIOS",
+        "about_1": "Project made in the CURSO COMPLETO COM 6 PROJETOS REAIS by HCode, on Udemy's platform. It was very useful to learn a little about the use of Classes and Constructors in JavaScript.",
+        "about_2": "Although it was a very valid project for my learning, I think that at the time I did it I didn't have enough knowledge to follow a project with so many functions.",
+        "about_3": "It is a project that I intend to redo in the future to better understand all the concepts presented."
+      },
+      {
+        "id": "e16",
+        "name": "calculadora",
+        "img": "Cover image of Calculadora",
+        "project": "ABOUT IT",
+        "project_name": "CALCULADORA",
+        "about_1": "Project made in the CURSO COMPLETO COM 6 PROJETOS REAIS by HCode, on Udemy's platform. It was very useful to learn a little about the use of Classes and Constructors in JavaScript.",
+        "about_2": "This project was very interesting and very rich to learn several commands that I had never seen before like: add keyboard events, associate specific keys to each function, add sound event to each click, clean the last input value, give the result of an account when starting the typing of a third operation, among others.",
+        "about_3": "It's a project I intend to redo, as I think I did it at an early point in my learning and I think it has a lot of features that I haven't fixed as I'd like."
+      }]
+  },
+  "contacts_hello1": "HELLO,",
+  "contacts_hello2": "I LOOK FORWARD TO",
+  "contacts_hello3": "HEARING FROM YOU",
+  "contacts_p1": "You can send me a message using the form or any other means of contact available on this page.",
+  "contacts_p2": "If you prefer, you can also call me.",
+  "contacts_formName": "Enter your name",
+  "contacts_formEmail": "Enter your email",
+  "contacts_formLabel": "Enter your message",
+  "contacts_send": "SEND"
+}

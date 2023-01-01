@@ -1,0 +1,129 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    min-height: calc(100% - 240px);
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6da588;
+}
+
+
+/* Starts contact style */
+#content div#content_left {
+    display: block;
+    width: 45%;
+    margin: 2.5% auto;
+}
+
+#content div#content_top {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    align-content: left;
+    padding-left: 30px;
+}
+
+#content div#content_top h1 {
+    font-family: roboto, sans-serif;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 1%;
+}
+
+#content div#content_left p {
+    font-family: roboto, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin: 3%;
+}
+
+#content div#content_left p span {
+    margin-right: 1%;
+}
+/* Ends contact style */
+
+
+/* Starts form style */
+#content div#content_right {
+    width: 45%;
+    margin: 2.5% auto;
+}
+
+#content div#content_right form {
+    width: 100%;
+    margin:10px auto;
+}
+
+#content div#content_right form h2  {
+    font-family: roboto, sans-serif;
+    color:#9A9668;
+}
+
+#content div#content_right form input, #content div#content_right form textarea {
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+#content div#content_right form input[type="text"] {
+    width: 80%;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 0 25px 5px;
+}
+
+#content div#content_right form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 0 25px 5px;
+}
+
+#content div#content_right textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 0 25px 5px;
+}
+
+#content div#content_right form input[type="submit"] {
+    width: 20%;
+    display: block;
+    padding:10px 20px;
+    margin: 15px 0 0 5px;
+    color: #FFF;
+    border:0;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    #content div#content_left, #content div#content_right {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+}
+
+
+/* Ends form style */

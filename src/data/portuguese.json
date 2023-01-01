@@ -1,0 +1,212 @@
+{
+  "header_name": "EDER TOLENTINO",
+  "header_job": "Desenvolvedor Web Jr",
+  "header_home": "INÍCIO",
+  "header_aboutme": "SOBRE",
+  "header_portfolio": "PORTFÓLIO",
+  "header_contacts": "CONTACTOS",
+  "header_flag": "_img/portuguese.jpg",
+  "header_language": "PORTUGUÊS",
+
+  "home_frontEnd": "FRONT-END",
+  "home_html5": "HTML5",
+  "home_css3": "CSS3",
+  "home_javaScript": "JAVASCRIPT",
+  "home_responsive": "RESPONSIVIDADE",
+  "home_bootstrap": "BOOTSTRAP",
+  "home_jQuery": "JQUERY",
+  "home_ajax": "AJAX",
+  "home_backEnd": "BACK-END",
+  "home_php": "PHP",
+  "home_c": "C",
+  "home_database": "BANCO DE DADOS",
+  "home_git": "GIT",
+  "home_github": "GITHUB",
+  "home_tools": "FERRAMENTAS",
+  "home_brackets": "BRACKETS",
+  "home_visualStudio": "VISUAL STUDIO",
+  "home_netBeans": "NETBEANS",
+  "home_naviCat": "NAVICAT",
+  "home_xampp": "XAMPP",
+  "home_nextSteps": "PRÓXIMOS INTERESSES",
+  "home_seo": "SEARCH ENGINE OPTIMIZATION",
+  "home_nodeJS": "NODEJS",
+  "home_java": "JAVA",
+  "home_python": "PYTHON",
+
+
+  "aboutme_title": "SOBRE",
+  "aboutme_p1": "Meu nome é Eder Tolentino, tenho 34 anos e sou nascido em Belo Horizonte, Brasil.",
+  "aboutme_p2": "Sou engenheiro de minas com mestrado em mineralogia, formado pela Universidade Federal de Minas Gerais. Apaixonado pela área de desenvolvimento web, venho estudando de forma autodidata algumas linguagens. Até o momento, tenho bons conhecimentos em HTML5, CSS3, JavaScript, PHP, C, SQL, Bootstrap, jQuery, Git, Github e estou começando a estudar Java.",
+  "aboutme_p3": "Considero que aprendo rápido e tenho boa capacidade para resolução de problemas e implementação de algoritmos. ",
+  "aboutme_p4": "Atualmente, sou aluno da escola 42 Lisboa e estou procurando o meu primeiro trabalho como Desenvolvedor Web Junior.",
+  "aboutme_img": "Foto de Eder Tolentino",
+
+  "portfolio": {
+    "title1": "PROJETOS UPSKILL",
+    "upskill": [],
+    "title2": "PROJETOS PESSOAIS",
+    "personalProjects": [
+      {
+        "id": "m01",
+        "name": "testeConjugaison",
+        "img": "Imagem de capa de Test de Conjugaison",
+        "project": "SOBRE",
+        "project_name": "TEST DE CONJUGAISON",
+        "about_1": "Website criado com a intenção de aprender a conjugar os verbos em francês e praticar, simultaneamente, um pouco de JavaScript e de CSS.",
+        "about_2": "Aprendi muito a importância da utilização de funções para reduzir o tamanho do código e facilitar a sua manutenção.",
+        "about_3": "Ainda há a necessidade de melhorar a conjugação dos verbos pronominais, de maneira que a entrada do verbo e suas conjugações sejam dadas com seus respectivos pronomes."
+      },
+      {
+        "id": "m02",
+        "name": "lesParoles",
+        "img": "Imagem de capa de Les Paroles",
+        "project": "SOBRE",
+        "project_name": "LES PAROLES",
+        "about_1": "Website criado para aprender um pouco de vocabulário de outros idiomas através de música e praticar um pouco de PHP e de Banco de Dados.",
+        "about_2": "Consegui melhorar os meus conhecimentos de AJAX para acessar o banco de dados via PHP e utilizar o arquivo JSON no JavaScript. Além disso, aprendi a fazer a tradução de conteúdo por meio da seleção de idiomas.",
+        "about_3": "Ainda quero melhorar um pouco do layout e colocar mais algumas músicas que gosto."
+      },
+      {
+        "id": "m03",
+        "name": "poliglota",
+        "img": "Imagem de capa de Poliglota",
+        "project": "SOBRE",
+        "project_name": "POLIGLOTA",
+        "about_1": "Criado, inicialmente, para aprender vocabulário em francês, resolvi acrescentar as línguas inglesa e espanhola, pois também quero melhorar o meu vocabulário nessas línguas. Depois resolvi colocar o italiano, o alemão, o chinês e o russo, por serem línguas que tenho um interesse futuro.",
+        "about_2": "Pratiquei muito CSS, JavaScript, PHP, Banco de Dados e AJAX, além de ter aprendido um pouco mais de francês, que foi a única língua que conferi a tradução de boa parte do conteúdo, as outras apenas traduzi utilizando o dicionário Reverso.",
+        "about_3": "Quero fazer algumas melhorias como: acrescentar imagens, um botão de voltar à palavra anterior, melhorar o layout, conferir as traduções e colocar algum comando que permita iniciar uma categoria em um ponto específico, para possibilitar parar e continuar em outro momento."
+      }
+    ],
+    "title3": "PROJETOS FEITOS EM CURSOS",
+    "courseProjects": [
+      {
+        "id": "e01",
+        "name": "pizzariaFontenelle",
+        "title2": "PROJETOS FEITOS EM CURSOS",
+        "img": "Imagem de capa de Pizzaria Fontenelle",
+        "project": "SOBRE",
+        "project_name": "PIZZARIA FONTENELLE",
+        "about_1": "Projeto realizado no curso de CSS3 da Imedia Brasil na plataforma da Udemy. Consiste na página inicial de uma pizzaria fictícia.",
+        "about_2": "Este curso foi muito útil para aprender os comandos: transition, transform, position, object fit e media queries.",
+        "about_3": "Já utilizei muitos dos recursos que aprendi neste projeto nos meus projetos próprios e no meu portfólio."
+      },
+      {
+        "id": "e02",
+        "name": "andesLogin",
+        "img": "Imagem de capa de Andes Login",
+        "project": "SOBRE",
+        "project_name": "Andes - login e lista de produtos",
+        "about_1": "Projeto realizado no curso de PHP - INTEGRAÇÃO COM BANCO DE DADOS da Imedia Brasil na plataforma da Udemy. Utiliza uma empresa fictícia para ensinar a fazer a conexão entre PHP e MySQL, além de apresentar comandos como include, require, variáveis de sessão, alteração de encode, envio de formulários, dentre outros.",
+        "about_2": "Nesta parte do projeto é possível acessar a página de login, a listagem dos produtos, os detalhes de cada produto e a página de logout.",
+        "about_3": "Para fazer o login, deve-se digitar os dados colocados no placeholder."
+      },
+      {
+        "id": "e07",
+        "name": "bootstrap",
+        "img": "Imagem de capa de Bootstrap Training",
+        "project": "SOBRE",
+        "project_name": "BOOTSTRAP TRAINIG",
+        "about_1": "Esta página foi feita no curso CRIANDO UM SITE COM BOOTSTRAP 4 do Professor Ricardo Sanches, disponível em seu canal do YouTube.",
+        "about_2": "Neste projeto foi ensinado a utilizar comandos do bootstrap como: Navbar, Carousel, Scrollspay, Thumbnail, Modal, Nav Pills, Jumbotron, dentre outros.",
+        "about_3": "Apesar de achar que o bootstrap facilita muito na construção da página e tem como resultado um layout muito bonito, tenho preferido não fazer uso, pois neste início quero melhorar minhas habilidades de programar sem estes recursos."
+      },
+      {
+        "id": "e08",
+        "name": "jogoDaVelha",
+        "img": "Imagem de capa de Jogo da Velha",
+        "project": "SOBRE",
+        "project_name": "JOGO DA VELHA",
+        "about_1": "Esta página foi feita através do CANAL FESSOR BRUNO - CFB CURSOS, em que o Professor Bruno ensina a criar alguns jogos populares utilizando diversas linguagens de programação.",
+        "about_2": "Este projeto consiste na criação de um jogo da velha programado em JavaScript.",
+        "about_3": "Fiz este curso quando estava começando a estudar programação e me ajudou muito a fixar alguns conceitos de lógica de programação e de JavaScript."
+      },
+      {
+        "id": "e09",
+        "name": "pingPong",
+        "img": "Imagem de capa de Ping Pong",
+        "project": "SOBRE",
+        "project_name": "PING PONG",
+        "about_1": "Esta página foi feita através do CANAL FESSOR BRUNO - CFB CURSOS, em que o Professor Bruno ensina a criar alguns jogos populares utilizando diversas linguagens de programação.",
+        "about_2": "Este projeto consiste na criação de um jogo de ping pong programado em JavaScript.",
+        "about_3": "O jogo funciona, mas acho que poderia ser melhorado para um nível mais difícil e para funcionar numa versão mobile. Apesar das deficiências, foi muito válido para o meu aprendizado."
+      },
+      {
+        "id": "e10",
+        "name": "horaDoDia",
+        "img": "Imagem de capa de Hora do Dia",
+        "project": "SOBRE",
+        "project_name": "HORA DO DIA",
+        "about_1": "Esta página faz parte de uma sequência de cinco exercícios realizados no CURSO DE JAVA SCRIPT do canal CURSO EM VÍDEO do Professor Gustavo Guanabara. Este curso foi muito útil para começar a aprender a editar o CSS dentro de funções JavaScript.",
+        "about_2": "Apesar de simples, este curso foi muito didático para aprender os conceitos que foram propostos.",
+        "about_3": "Este primeiro exercício, faz basicamente acessar a função Date() e associar uma foto do respectivo horário do dia à manhã, à tarde ou à noite."
+      },
+      {
+        "id": "e11",
+        "name": "idadeDaPessoa",
+        "img": "Imagem de capa de Idade da Pessoa",
+        "project": "SOBRE",
+        "project_name": "IDADE DA PESSOA",
+        "about_1": "Esta página faz parte de uma sequência de cinco exercícios realizados no CURSO DE JAVA SCRIPT do canal CURSO EM VÍDEO do Professor Gustavo Guanabara. Este curso foi muito útil para começar a aprender a editar o CSS dentro de funções JavaScript.",
+        "about_2": "Apesar de simples, este curso foi muito didático para aprender os conceitos que foram propostos.",
+        "about_3": "Este segundo exercício, tem como dado de entrada o ano de nascimento e o sexo da pessoa, tendo como resultado a idade da pessoa, associada a uma foto de alguém de idade aproximada."
+      },
+      {
+        "id": "e12",
+        "name": "vamosContar",
+        "img": "Imagem de capa de Vamos Contar",
+        "project": "SOBRE",
+        "project_name": "VAMOS CONTAR",
+        "about_1": "Esta página faz parte de uma sequência de cinco exercícios realizados no CURSO DE JAVA SCRIPT do canal CURSO EM VÍDEO do Professor Gustavo Guanabara. Este curso foi muito útil para começar a aprender a editar o CSS dentro de funções JavaScript.",
+        "about_2": "Apesar de simples, este curso foi muito didático para aprender os conceitos que foram propostos.",
+        "about_3": "Este terceiro exercício tem como entrada um número inicial, um número final e um valor de passo, apresentando como resultado uma sequência numérica compreendida entre o início e o fim, com um intervalo igual ao passo."
+      },
+      {
+        "id": "e13",
+        "name": "tabuada",
+        "img": "Imagem de capa de Tabuada",
+        "project": "SOBRE",
+        "project_name": "TABUADA",
+        "about_1": "Esta página faz parte de uma sequência de cinco exercícios realizados no CURSO DE JAVA SCRIPT do canal CURSO EM VÍDEO do Professor Gustavo Guanabara. Este curso foi muito útil para começar a aprender a editar o CSS dentro de funções JavaScript.",
+        "about_2": "Apesar de simples, este curso foi muito didático para aprender os conceitos que foram propostos.",
+        "about_3": "Este quarto exercício deste curso tem como dado de entrada um número e como resultado uma lista da tabuada deste número multiplicado entre 1 e 100."
+      },
+      {
+        "id": "e14",
+        "name": "analisador",
+        "img": "Imagem de capa de Analisador de Números",
+        "project": "SOBRE",
+        "project_name": "ANALISADOR DE NÚMEROS",
+        "about_1": "Esta página faz parte de uma sequência de cinco exercícios realizados no CURSO DE JAVA SCRIPT do canal CURSO EM VÍDEO do Professor Gustavo Guanabara. Este curso foi muito útil para começar a aprender a editar o CSS dentro de funções JavaScript.",
+        "about_2": "Apesar de simples, este curso foi muito didático para aprender os conceitos que foram propostos.",
+        "about_3": "Este é o quinto e último exercício deste curso e permite entrar com vários números e, ao finalizar, ter uma análise da quantidade de números, menor valor, maior valor, soma e média."
+      },
+      {
+        "id": "e15",
+        "name": "projetoUsuarios",
+        "img": "Imagem de capa de Projeto Usuários",
+        "project": "SOBRE",
+        "project_name": "PROJETO USUÁRIOS",
+        "about_1": "Projeto realizado no CURSO COMPLETO COM 6 PROJETOS REAIS da HCode, na plataforma da Udemy. Foi muito útil para aprender um pouco sobre a utilização de Classes e Constructors em JavaScript.",
+        "about_2": "Apesar de ter sido um projeto muito válido para o meu aprendizado, acho que na época em que o fiz não tinha conhecimentos suficientes para acompanhar um projeto com tantas funções.",
+        "about_3": "É um projeto que pretendo refazer futuramente para entender melhor todos os conceitos apresentados."
+      },
+      {
+        "id": "e16",
+        "name": "calculadora",
+        "img": "Imagem de capa de Calculadora",
+        "project": "SOBRE",
+        "project_name": "CALCULADORA",
+        "about_1": "Projeto realizado no CURSO COMPLETO COM 6 PROJETOS REAIS da HCode, na plataforma da Udemy. Foi muito útil para aprender um pouco sobre a utilização de Classes e Constructors em JavaScript.",
+        "about_2": "Este projeto foi muito interessante e muito rico para aprender diversos comandos que eu nunca havia visto como: adicionar eventos de teclado, associar teclas específicas à cada função, adicionar evento de som a cada clique, limpar último valor de entrada, dar o resultado de uma conta ao iniciar a digitação de uma terceira operação, dentre outros.",
+        "about_3": "É um projeto que pretendo refazer, pois acho que fiz em um momento precoce do meu aprendizado e acho que tem muitos recursos que ainda não fixei como gostaria."
+      }]
+  },
+  "contacts_hello": "OLÁ, <br> AGUARDO O <br> SEU CONTACTO",
+  "contacts_p1": "Você pode enviar-me mensagem utilizando o formulário ou qualquer outro meio de contacto disponível nesta página.",
+  "contacts_p2": "Se preferir, também pode ligar-me.",
+  "contacts_formName": "Digite seu nome",
+  "contacts_formEmail": "Digite seu email",
+  "contacts_formLabel": "Digite sua mensagem",
+  "contacts_send": "ENVIAR"
+}
