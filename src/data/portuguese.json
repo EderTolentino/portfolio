@@ -245,7 +245,9 @@
         "about_3": "É um projeto que pretendo refazer, pois acho que fiz em um momento precoce do meu aprendizado e acho que tem muitos recursos que ainda não fixei como gostaria."
       }]
   },
-  "contacts_hello": "OLÁ, <br> AGUARDO O <br> SEU CONTACTO",
+  "contacts_hello1": "OLÁ,",
+  "contacts_hello2": "AGUARDO O",
+  "contacts_hello3": "SEU CONTACTO",
   "contacts_p1": "Você pode enviar-me mensagem utilizando o formulário ou qualquer outro meio de contacto disponível nesta página.",
   "contacts_p2": "Se preferir, também pode ligar-me.",
   "contacts_formName": "Digite seu nome",

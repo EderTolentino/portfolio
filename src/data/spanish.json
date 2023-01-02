@@ -244,7 +244,9 @@
         "about_3": "Es un proyecto que pienso rehacer, ya que creo que lo hice en un momento temprano de mi aprendizaje y que tiene muchos recursos que no he asimilado lo suficiente."
       }]
   },
-  "contacts_hello": "HOLA, <br> ESTARÉ ESPERANDO <br> SU CONTACTO",
+  "contacts_hello1": "HOLA,",
+  "contacts_hello2": "ESTARÉ ESPERANDO",
+  "contacts_hello3": "SU CONTACTO",
   "contacts_p1": "Puede enviarme un mensaje utilizando el formulario o cualquier otro medio de contacto disponible en esta página.",
   "contacts_p2": "Si lo prefiere, también puede llamarme.",
   "contacts_formName": "Introduzca su nombre",

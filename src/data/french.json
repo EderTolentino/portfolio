@@ -244,7 +244,9 @@
         "about_3": "Est un projet que j'ai l'intention de refaire, car je pense l'avoir fait à un stade précoce de mon apprentissage et je pense qu'il a beaucoup de fonctionnalités que je n'ai pas corrigées comme je le voudrais."
       }]
   },
-  "contacts_hello": "BONJOUR, <br> J'ATTENDS <br> VOTRE CONTACT",
+  "contacts_hello1": "BONJOUR,",
+  "contacts_hello2": "J'ATTENDS",
+  "contacts_hello3": "VOTRE CONTACT",
   "contacts_p1": "Vous pouvez m'envoyer un message en utilisant le formulaire ou tout autre moyen de contact disponible sur cette page.",
   "contacts_p2": "Si vous préférez, vous pouvez aussi m'appeler.",
   "contacts_formName": "Entrez votre nom",
