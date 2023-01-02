@@ -7,6 +7,12 @@ function Portfolio() {
 
     return <div className={"Portfolio"}>
         <div className="content">
+
+            <h1>{data.portfolio.title1}</h1>
+            <>
+                {data.portfolio.upskill.map((p) => <Project key={p.id} {...p} />)}
+            </>
+
             <h1>{data.portfolio.title2}</h1>
             <>
                 {data.portfolio.personalProjects.map((p) => <Project key={p.id} {...p} />)}

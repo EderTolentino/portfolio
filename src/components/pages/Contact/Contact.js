@@ -17,16 +17,15 @@ function Contact() {
                 <p><span className="fa fa-phone"></span>(+351) 910 116 613</p>
                 <p><span className="fa fa-envelope"></span>eder.tolentino2020@gmail.com</p>
             </div>
-
-
             <div id="content_right">
-                <form action="contacts.php" method="post">
+                {/*<form action="contacts.php" method="post">
                     <input type="text" name="name" placeholder={data.contacts_formName}/>
-                        <input type="email" name="email" placeholder={data.contacts_formEmail}/>
-                            <textarea name="message" placeholder={data.contacts_formLabel}></textarea>
-                            <input type="submit" name="send" value={data.contacts_send}/>
-                </form>
+                    <input type="email" name="email" placeholder={data.contacts_formEmail}/>
+                    <textarea name="message" placeholder={data.contacts_formLabel}></textarea>
+                    <input type="submit" name="send" value={data.contacts_send}/>
+                </form>*/}
             </div>
+
         </div>
     </div>;
 }

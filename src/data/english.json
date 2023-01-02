@@ -13,11 +13,13 @@
   "home_html5": "HTML5",
   "home_css3": "CSS3",
   "home_javaScript": "JAVASCRIPT",
+  "home_react": "REACT",
   "home_responsive": "RESPONSIVE",
   "home_bootstrap": "BOOTSTRAP",
   "home_jQuery": "JQUERY",
   "home_ajax": "AJAX",
   "home_backEnd": "BACK-END",
+  "home_nodeJS": "NODEJS",
   "home_php": "PHP",
   "home_c": "C",
   "home_database": "DATABASE",
@@ -26,25 +28,67 @@
   "home_tools": "TOOLS",
   "home_brackets": "BRACKETS",
   "home_visualStudio": "VISUAL STUDIO",
+  "home_webstorm": "WEB STORM",
   "home_netBeans": "NETBEANS",
   "home_naviCat": "NAVICAT",
   "home_xampp": "XAMPP",
   "home_nextSteps": "NEXT INTERESTS",
   "home_seo": "SEARCH ENGINE OPTIMIZATION",
-  "home_nodeJS": "NODEJS",
   "home_java": "JAVA",
   "home_python": "PYTHON",
 
   "aboutme_title": "ABOUT ME",
-  "aboutme_p1": "My name is Eder Tolentino, I am 34 years old and I was born in Belo Horizonte, Brazil.",
-  "aboutme_p2": "I am a mining engineer with a master's degree in geology from the Universidade Federal de Minas Gerais. Passionate about web development, I've been self-studying some languages. So far, I have good knowledge in HTML5, CSS3, JavaScript, PHP, C, SQL, Bootstrap, jQuery, Git, Github and I'm starting to study Java.",
-  "aboutme_p3": "I consider myself a fast learner and I have good problem solving and algorithm implementation skills. ",
-  "aboutme_p4": "I'm currently a student at 42 Lisbon and I'm looking for my first job as a Junior Web Developer.",
+  "aboutme_p1": "Hi! My name is Eder Tolentino. I am a very dedicated, adaptable professional who loves challenges.",
+  "aboutme_p2": "Mining engineer graduated from the Federal University of Minas Gerais, I'm currently finishing the JavaScript course with a focus on React and NodeJS, at ISCTE.",
+  "aboutme_p3": "Passionate about programming, I have good knowledge in HTML, CSS, JavaScript and SQL database, in addition to some experience in PHP and C.",
+  "aboutme_p4": "I consider myself a fast learner and I have good problem solving and algorithm implementation skills. ",
+  "aboutme_p5": "I'm looking for a job opportunity as a React Developer, where I can learn and contribute to the company.",
   "aboutme_img": "Photo by Eder Tolentino",
 
   "portfolio": {
     "title1": "UPSKILL PRJECTS",
-    "upskill": [],
+    "upskill": [
+      {
+        "id": "u01",
+        "name": "jogosJS",
+        "img": "Cover image of Games made in JavaScript",
+        "project": "ABOUT IT",
+        "project_name": "JOGOS EM JAVASCRIPT",
+        "about_1": "Website created in the UPSkill course, in the JavaScript module.",
+        "about_2": "The design of this module consists of a three-game system, with game selection and history of finished games:",
+        "about_3": "Hash, four in a row and memory game."
+      },
+      {
+        "id": "u02",
+        "name": "aeroporto",
+        "img": "Cover image of aeroporto",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO AEROPORTO - NODEJS",
+        "about_1": "This project consists of implementing an API to communicate with the database implemented in the previous module of the course.",
+        "about_2": "It has CRUD functionalities (create, read, update, delete) in the different classes and other customized actions on the database.",
+        "about_3": "The express framework and other modules necessary to fulfill the defined requirements were used."
+      },
+      {
+        "id": "u03",
+        "name": "upbnb",
+        "img": "Cover image of upbnb",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO UPBNB - REACT",
+        "about_1": "The project for this module consists of implementing the frontend of a luxury home rental solution in several countries.",
+        "about_2": "The frontend was created using React.JS technology, integrating with an existing api that provides a catalog of houses available for rent, as well as some of their details.",
+        "about_3": "The application has an information presentation aspect and a dynamic aspect, with information saved locally (favorite houses)."
+      },
+      {
+        "id": "u04",
+        "name": "uptube",
+        "img": "Cover image of uptube",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO UPTUBE - REACT E NODEJS",
+        "about_1": "The aim of the project is to simulate a real work situation, in which a customer needs a tailor-made solution but only knows the functionalities he wants implemented and which technologies he wants to use.",
+        "about_2": "The aim is to develop a video sharing platform with a social network component.",
+        "about_3": "The solution involves the development of a full-stack system and consists of a progressive web application in React.JS, supported by an Express.js backend and a MySQL relational database."
+      }
+    ],
     "title2": "PERSONAL PROJECTS",
     "personalProjects": [
       {

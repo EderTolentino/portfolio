@@ -13,6 +13,7 @@
   "home_html5": "HTML5",
   "home_css3": "CSS3",
   "home_javaScript": "JAVASCRIPT",
+  "home_react": "REACT",
   "home_responsive": "RESPONSIVE",
   "home_bootstrap": "BOOTSTRAP",
   "home_jQuery": "JQUERY",
@@ -36,15 +37,57 @@
   "home_python": "PYTHON",
 
   "aboutme_title": "À PROPOS DE MOI",
-  "aboutme_p1": "Je m'appelle Eder Tolentino, j'ai 34 ans et je suis né à Belo Horizonte, au Brésil.",
-  "aboutme_p2": "Je suis ingénieur minier et titulaire d'une maîtrise en géologie de l'Universidade Federal de Minas Gerais. Passionné par le développement web, j'ai étudié en autodidacte certains langages. Jusqu'à présent, j'ai de bonnes connaissances en HTML5, CSS3, JavaScript, PHP, C, SQL, Bootstrap, jQuery, Git, Github et je commence à étudier Java.",
-  "aboutme_p3": "Je me considère comme un apprenant rapide et j'ai de bonnes compétences en matière de résolution de problèmes et de mise en œuvre d'algorithmes. ",
-  "aboutme_p4": "Je suis actuellement étudiant à 42 Lisbonne et je cherche mon premier emploi en tant que Développeur Web Junior.",
+  "aboutme_p1": "Salut! Je m'appelle Eder Tolentino. Je suis une professionnelle très dévouée, adaptable et qui aime les défis.",
+  "aboutme_p2": "Ingénieur minier diplômé de l'Université fédérale de Minas Gerais, je termine actuellement le cours JavaScript avec un focus sur React et NodeJS, à l'ISCTE.",
+  "aboutme_p3": "Passionné de programmation, j'ai de bonnes connaissances en HTML, CSS, JavaScript et base de données SQL, en plus d'une certaine expérience en PHP et C.",
+  "aboutme_p4": "Je me considère comme un apprenant rapide et j'ai de bonnes compétences en matière de résolution de problèmes et de mise en œuvre d'algorithmes. ",
+  "aboutme_p5": "Je suis à la recherche d'une opportunité d'emploi en tant que développeur React, où je pourrai apprendre et contribuer à l'entreprise.",
   "aboutme_img": "Photo par Eder Tolentino",
 
   "portfolio": {
     "title1": "PROJETS UPSKILL",
-    "upskill": [],
+    "upskill": [
+      {
+        "id": "u01",
+        "name": "jogosJS",
+        "img": "Image de couverture de jeux créés en JavaScript",
+        "project": "ABOUT IT",
+        "project_name": "JOGOS EM JAVASCRIPT",
+        "about_1": "Site créé dans le cours UPSkill, dans le module JavaScript.",
+        "about_2": "La conception de ce module consiste en un système à trois jeux, avec une sélection de jeux et un historique des jeux terminés:",
+        "about_3": "Hacher, quatre d'affilée et jeu de mémoire."
+      },
+      {
+        "id": "u02",
+        "name": "aeroporto",
+        "img": "Image de couverture de aeroporto",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO AEROPORTO - NODEJS",
+        "about_1": "Ce projet consiste à implémenter une API pour communiquer avec la base de données implémentée dans le module précédent du cours.",
+        "about_2": "Il dispose de fonctionnalités CRUD (créer, lire, mettre à jour, supprimer) dans les différentes classes et d'autres actions personnalisées sur la base de données.",
+        "about_3": "Le cadre express et d'autres modules nécessaires pour répondre aux exigences définies ont été utilisés."
+      },
+      {
+        "id": "u03",
+        "name": "upbnb",
+        "img": "Image de couverture de upbnb",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO UPBNB - REACT",
+        "about_1": "Le projet de ce module consiste à implémenter le frontend d'une solution de location de maisons de luxe dans plusieurs pays.",
+        "about_2": "Le frontend a été créé à l'aide de la technologie React.JS, s'intégrant à une API existante qui fournit un catalogue de maisons disponibles à la location, ainsi que certains de leurs détails.",
+        "about_3": "L'application a un aspect de présentation des informations et un aspect dynamique, avec des informations enregistrées localement (maisons préférées)."
+      },
+      {
+        "id": "u04",
+        "name": "uptube",
+        "img": "Image de couverture de uptube",
+        "project": "ABOUT IT",
+        "project_name": "PROJETO UPTUBE - REACT E NODEJS",
+        "about_1": "L'objectif du projet est de simuler une situation de travail réelle, dans laquelle un client a besoin d'une solution sur mesure mais ne connaît que les fonctionnalités qu'il souhaite mettre en œuvre et les technologies qu'il souhaite utiliser.",
+        "about_2": "L'objectif est de développer une plateforme de partage de vidéos avec une composante de réseau social.",
+        "about_3": "La solution implique le développement d'un système full-stack et consiste en une application web progressive en React.JS, supportée par un backend Express.js et une base de données relationnelle MySQL."
+      }
+    ],
     "title2": "PROJETS PROPRES",
     "personalProjects": [
       {

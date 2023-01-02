@@ -12,6 +12,7 @@ function About() {
                 <p>{data.aboutme_p2}</p>
                 <p>{data.aboutme_p3}</p>
                 <p>{data.aboutme_p4}</p>
+                <p>{data.aboutme_p5}</p>
             </div>
             <div id="aboutme_content_photo">
                 <img src={personalPhoto} alt="<?php echo $lang['aboutme_img'] ?>"/>

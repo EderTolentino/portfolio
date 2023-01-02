@@ -3,6 +3,7 @@ import {useLanguage} from "../../../Providers/LanguageContext";
 import html5 from "../../../_img/_icons/html5.png";
 import css3 from "../../../_img/_icons/css3.png";
 import javascript from "../../../_img/_icons/javascript.png";
+import react from "../../../_img/_icons/react.png";
 import responsive from "../../../_img/_icons/responsive.png";
 import bootstrap from "../../../_img/_icons/bootstrap.png";
 import jquery from "../../../_img/_icons/jquery.png";
@@ -14,6 +15,7 @@ import git from "../../../_img/_icons/git.png";
 import github from "../../../_img/_icons/github.png";
 import brackets from "../../../_img/_icons/brackets.png";
 import visualstudio from "../../../_img/_icons/visual studio.png";
+import webstorm from "../../../_img/_icons/webstorm.png";
 import netbeans from "../../../_img/_icons/netbeans.png";
 import navicat from "../../../_img/_icons/navicat.png";
 import xampp from "../../../_img/_icons/xampp.png";
@@ -40,8 +42,12 @@ function Home() {
                         <h4>{data.home_css3}</h4>
                 </div>
                 <div className="apps javascript">
-                    <img src={javascript} alt="Java Script icon"/>
+                    <img src={javascript} alt="JavaScript icon"/>
                         <h4>{data.home_javaScript}</h4>
+                </div>
+                <div className="apps react">
+                    <img src={react} alt="React icon"/>
+                    <h4>{data.home_react}</h4>
                 </div>
                 <div className="apps responsive">
                     <img src={responsive} alt="Responsividade image"/>
@@ -63,6 +69,10 @@ function Home() {
 
             <h2 className="backEndColor">{data.home_backEnd}</h2>
             <div className="backEnd backEndColor">
+                <div className="apps nodejs">
+                    <img src={nodejs} alt="NodeJS icon"/>
+                    <h4>{data.home_nodeJS}</h4>
+                </div>
                 <div className="apps php">
                     <img src={php} alt="PHP icon"/>
                         <h4>{data.home_php}</h4>
@@ -95,6 +105,10 @@ function Home() {
                     <img src={visualstudio} alt="Visual Studio icon"/>
                         <h4>{data.home_visualStudio}</h4>
                 </div>
+                <div className="apps webstorm">
+                    <img src={webstorm} alt="Web Storm icon"/>
+                    <h4>{data.home_webstorm}</h4>
+                </div>
                 <div className="apps netbeans">
                     <img src={netbeans} alt="NetBeans icon"/>
                         <h4>{data.home_netBeans}</h4>
@@ -115,14 +129,6 @@ function Home() {
                 <div className="apps seo">
                     <img src={seo} alt="SEO icon"/>
                         <h4>{data.home_seo}</h4>
-                </div>
-                <div className="apps nodejs">
-                    <img src={nodejs} alt="NodeJS icon"/>
-                        <h4>{data.home_nodeJS}</h4>
-                </div>
-                <div className="apps java">
-                    <img src={java} alt="Java icon"/>
-                        <h4>{data.home_java}</h4>
                 </div>
                 <div className="apps python">
                     <img src={python} alt="Python icon"/>

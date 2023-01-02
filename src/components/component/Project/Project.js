@@ -19,6 +19,10 @@ import analisador from "../../../_img/analisador.jpg";
 import projetoUsuarios from "../../../_img/projetousuarios.jpg";
 import calculadora from "../../../_img/calculadora.jpg";
 import vamosContar from "../../../_img/vamoscontar.jpg";
+import jogosJS from "../../../_img/jogosJS.jpg";
+import aeroporto from "../../../_img/aeroporto.jpg";
+import upbnb from "../../../_img/upbnb.jpg";
+import uptube from "../../../_img/uptube.jpg";
 
 function Project(props) {
     const {showAbout, toShowAbout, toggleShowAbout} = useLanguage();
@@ -33,6 +37,18 @@ function Project(props) {
                 break;
             case 'poliglota':
                 return ({photo: poliglota, linkPage: 'https://github.com/EderTolentino/MyProjects_Poliglota'});
+                break;
+            case 'jogosJS':
+                return ({photo: jogosJS, linkPage: 'https://edertolentino.github.io/UPSkill_JavaScript-Jogos/'});
+                break;
+            case 'aeroporto':
+                return ({photo: aeroporto, linkPage: 'https://github.com/EderTolentino/UPSkill_NodeJS-API-aeroporto'});
+                break;
+            case 'upbnb':
+                return ({photo: upbnb, linkPage: 'https://github.com/EderTolentino/UPSkill_React-UPBNB'});
+                break;
+            case 'uptube':
+                return ({photo: uptube, linkPage: 'https://github.com/EderTolentino/UPSkill_React-NodeJS-UPTube'});
                 break;
             case 'pizzariaFontenelle':
                 return ({photo: pizzariaFontenelle, linkPage: 'https://edertolentino.github.io/IMedia_Pizzaria-Fontenelle/'});
@@ -87,7 +103,6 @@ function Project(props) {
         }
     }
 
-    console.log("show " + showAbout)
 
     return <div className="content_project">
         <a href={getData(props.name).linkPage} target="_blank">

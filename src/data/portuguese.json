@@ -12,6 +12,7 @@
   "home_html5": "HTML5",
   "home_css3": "CSS3",
   "home_javaScript": "JAVASCRIPT",
+  "home_react": "REACT",
   "home_responsive": "RESPONSIVIDADE",
   "home_bootstrap": "BOOTSTRAP",
   "home_jQuery": "JQUERY",
@@ -36,15 +37,57 @@
 
 
   "aboutme_title": "SOBRE",
-  "aboutme_p1": "Meu nome é Eder Tolentino, tenho 34 anos e sou nascido em Belo Horizonte, Brasil.",
-  "aboutme_p2": "Sou engenheiro de minas com mestrado em mineralogia, formado pela Universidade Federal de Minas Gerais. Apaixonado pela área de desenvolvimento web, venho estudando de forma autodidata algumas linguagens. Até o momento, tenho bons conhecimentos em HTML5, CSS3, JavaScript, PHP, C, SQL, Bootstrap, jQuery, Git, Github e estou começando a estudar Java.",
-  "aboutme_p3": "Considero que aprendo rápido e tenho boa capacidade para resolução de problemas e implementação de algoritmos. ",
-  "aboutme_p4": "Atualmente, sou aluno da escola 42 Lisboa e estou procurando o meu primeiro trabalho como Desenvolvedor Web Junior.",
+  "aboutme_p1": "Olá! Meu nome é Eder Tolentino. Sou um profissional muito dedicado, adaptável e que adora desafios.",
+  "aboutme_p2": "Engenheiro de minas formado pela Universidade Federal de Minas Gerais, atualmente estou terminando o curso de JavaScript com foco em React e NodeJS, pelo ISCTE.",
+  "aboutme_p3": "Apaixonado pela área de programação, tenho bons conhecimentos em HTML, CSS, JavaScript e base de dados SQL, além de alguma experiência em PHP e C.",
+  "aboutme_p4": "Considero que aprendo rápido e tenho boa capacidade para resolução de problemas e implementação de algoritmos. ",
+  "aboutme_p5": "Procuro oportunidade de trabalho como Desenvolvedor React, onde eu possa aprender e agregar para a empresa.",
   "aboutme_img": "Foto de Eder Tolentino",
 
   "portfolio": {
     "title1": "PROJETOS UPSKILL",
-    "upskill": [],
+    "upskill": [
+      {
+        "id": "u01",
+        "name": "jogosJS",
+        "img": "Imagem de capa de Jogos em JavaScript",
+        "project": "SOBRE",
+        "project_name": "JOGOS EM JAVASCRIPT",
+        "about_1": "Site criado no curso do UPSkill, no múdulo de JavaScript.",
+        "about_2": "O projeto deste módulo consiste num sistema de três jogos, com seleção de jogo e histórico de jogos terminados:",
+        "about_3": "Jogo do galo, quatro em linha e jogo da memória."
+      },
+      {
+        "id": "u02",
+        "name": "aeroporto",
+        "img": "Imagem de capa de aeroporto",
+        "project": "SOBRE",
+        "project_name": "PROJETO AEROPORTO - NODEJS",
+        "about_1": "Este projeto consiste na implementação de uma API para comunicação com a base de dados implementada no módulo anterior do curso.",
+        "about_2": "Possui funcionalidades CRUD (create, read, update, delete) nas diferentes classes e outras ações personalizadas sobre a base de dados.",
+        "about_3": "Foi utilizada a framework express e outros módulos necessários ao cumprimento dos requisitos definidos."
+      },
+      {
+        "id": "u03",
+        "name": "upbnb",
+        "img": "Imagem de capa de upbnb",
+        "project": "SOBRE",
+        "project_name": "PROJETO UPBNB - REACT",
+        "about_1": "O projeto deste módulo consiste na implementação do frontend de uma solução de aluguer de casas de luxo em vários países. ",
+        "about_2": "O frontend foi criado utilizando a tecnologia React.JS, fazendo a integração com uma api existente que disponibiliza um catálogo de casas disponíveis para aluguer, assim como alguns dos seus detalhes.",
+        "about_3": "A aplicação tem uma vertente de apresentação de informação e uma vertente dinâmica, com informações guardadas localmente (casas favoritas)."
+      },
+      {
+        "id": "u04",
+        "name": "uptube",
+        "img": "Imagem de capa de uptube",
+        "project": "SOBRE",
+        "project_name": "PROJETO UPTUBE - REACT E NODEJS",
+        "about_1": "O objetivo do projeto é simular uma situação de trabalho real, em que um cliente precisa de uma solução à medida mas apenas sabe as funcionalidades que quer implementadas e que tecnologias quer utilizar.",
+        "about_2": "Pretende-se desenvolver uma plataforma de partilha de vídeos com uma componente de rede social.",
+        "about_3": "A solução passa pelo desenvolvimento de um sistema full-stack e consiste numa aplicação web progressiva em React.JS, apoiada por um backend Express.js e uma base de dados relacional MySQL."
+      }
+    ],
     "title2": "PROJETOS PESSOAIS",
     "personalProjects": [
       {
