@@ -10,7 +10,7 @@ function Footer() {
     return <div className={"Footer"}>
         <footer>
             <div id="footer_left">
-                <p>Eder Tolentino © 2021</p>
+                <p>Eder Tolentino © 2023</p>
             </div>
 
             <div id="footer_right">
