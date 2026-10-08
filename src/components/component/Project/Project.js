@@ -25,89 +25,74 @@ import upbnb from "../../../_img/upbnb.jpg";
 import uptube from "../../../_img/uptube.jpg";
 
 function Project(props) {
-    const {showAbout, toShowAbout, toggleShowAbout} = useLanguage();
+    const {toShowAbout, toggleShowAbout} = useLanguage();
 
     const getData = (photo) => {
         switch (photo) {
             case 'testeConjugaison':
                 return ({photo: testeConjugaison, linkPage: 'https://edertolentino.github.io/MyProjects_Test-Conjugaison/'});
-                break;
             case 'lesParoles':
                 return ({photo: lesParoles, linkPage: 'https://github.com/EderTolentino/MyProjects_Les-Paroles'});
-                break;
             case 'poliglota':
                 return ({photo: poliglota, linkPage: 'https://github.com/EderTolentino/MyProjects_Poliglota'});
-                break;
             case 'jogosJS':
                 return ({photo: jogosJS, linkPage: 'https://edertolentino.github.io/UPSkill_JavaScript-Jogos/'});
-                break;
             case 'aeroporto':
                 return ({photo: aeroporto, linkPage: 'https://github.com/EderTolentino/UPSkill_NodeJS-API-aeroporto'});
-                break;
             case 'upbnb':
                 return ({photo: upbnb, linkPage: 'https://github.com/EderTolentino/UPSkill_React-UPBNB'});
-                break;
             case 'uptube':
                 return ({photo: uptube, linkPage: 'https://github.com/EderTolentino/web-uptube'});
-                break;
             case 'pizzariaFontenelle':
                 return ({photo: pizzariaFontenelle, linkPage: 'https://edertolentino.github.io/IMedia_Pizzaria-Fontenelle/'});
-                break;
             case 'andesLogin':
                 return ({photo: andesLogin, linkPage: 'https://edertolentino.github.io/IMedia_Projeto-Andes/'});
-                break;
             case 'andesInserir':
                 return ({photo: andesInserir, linkPage: ''});
-                break;
             case 'andesTransportadoras':
                 return ({photo: andesTransportadoras, linkPage: ''});
-                break;
             case 'andesContact':
                 return ({photo: andesContact, linkPage: ''});
-                break;
             case 'andesUpload':
                 return ({photo: andesUpload, linkPage: ''});
-                break;
             case 'bootstrap':
                 return ({photo: bootstrap, linkPage: 'https://edertolentino.github.io/ProfessorRicardoSanches_Bootstrap/'});
-                break;
             case 'jogoDaVelha':
                 return ({photo: jogoDaVelha, linkPage: 'https://edertolentino.github.io/CFB_Jogo-do-Galo/'});
-                break;
             case 'pingPong':
                 return ({photo: pingPong, linkPage: 'https://edertolentino.github.io/CFB_Ping-Pong/'});
-                break;
             case 'horaDoDia':
                 return ({photo: horaDoDia, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Hora-do-Dia/'});
-                break;
             case 'idadeDaPessoa':
                 return ({photo: idadeDaPessoa, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Idade-da-Pessoa/'});
-                break;
             case 'tabuada':
                 return ({photo: tabuada, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Tabuada/'});
-                break;
             case 'analisador':
                 return ({photo: analisador, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Analisador-de-Numeros/'});
-                break;
             case 'projetoUsuarios':
-                return ({photo: projetoUsuarios, linkPage: 'https://edertolentino.github.io/HCode_Projeto-Usuarios/'});
-                break;
+                return ({photo: projetoUsuarios, linkPage: null});
             case 'calculadora':
-                return ({photo: calculadora, linkPage: 'https://edertolentino.github.io/HCode_Calculadora/'});
-                break;
+                return ({photo: calculadora, linkPage: null});
             case 'vamosContar':
                 return ({photo: vamosContar, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Vamos-Contar/'});
                 break;
             default:
-                console.log(`Sorry, there is no image for this project`);
+                return ({photo: testeConjugaison, linkPage: null});
         }
     }
 
 
+    const projectData = getData(props.name);
+    const image = <img src={projectData.photo} alt={props.img || props.project_name || props.project}/>;
+
     return <div className="content_project">
-        <a href={getData(props.name).linkPage} target="_blank">
-            <img src={getData(props.name).photo} alt={props.img}/>
-        </a>
+        {projectData.linkPage ? (
+            <a href={projectData.linkPage} target="_blank" rel="noopener noreferrer" aria-label={`Open ${props.project_name || props.project}`}>
+                {image}
+            </a>
+        ) : (
+            <div title="Project preview — no public demo available">{image}</div>
+        )}
 
         {!toShowAbout(props.id) &&
             <div onClick={() => toggleShowAbout(props.id)} className="content_text hide">
