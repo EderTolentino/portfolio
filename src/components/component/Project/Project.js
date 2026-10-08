@@ -48,7 +48,7 @@ function Project(props) {
                 return ({photo: upbnb, linkPage: 'https://github.com/EderTolentino/UPSkill_React-UPBNB'});
                 break;
             case 'uptube':
-                return ({photo: uptube, linkPage: 'https://github.com/EderTolentino/UPSkill_React-NodeJS-UPTube'});
+                return ({photo: uptube, linkPage: 'https://github.com/EderTolentino/web-uptube'});
                 break;
             case 'pizzariaFontenelle':
                 return ({photo: pizzariaFontenelle, linkPage: 'https://edertolentino.github.io/IMedia_Pizzaria-Fontenelle/'});
