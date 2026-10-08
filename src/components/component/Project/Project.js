@@ -58,23 +58,23 @@ function Project(props) {
             case 'bootstrap':
                 return ({photo: bootstrap, linkPage: 'https://edertolentino.github.io/ProfessorRicardoSanches_Bootstrap/'});
             case 'jogoDaVelha':
-                return ({photo: jogoDaVelha, linkPage: 'https://edertolentino.github.io/CFB_Jogo-do-Galo/'});
+                return ({photo: jogoDaVelha, linkPage: null});
             case 'pingPong':
-                return ({photo: pingPong, linkPage: 'https://edertolentino.github.io/CFB_Ping-Pong/'});
+                return ({photo: pingPong, linkPage: null});
             case 'horaDoDia':
-                return ({photo: horaDoDia, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Hora-do-Dia/'});
+                return ({photo: horaDoDia, linkPage: null});
             case 'idadeDaPessoa':
-                return ({photo: idadeDaPessoa, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Idade-da-Pessoa/'});
+                return ({photo: idadeDaPessoa, linkPage: null});
             case 'tabuada':
-                return ({photo: tabuada, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Tabuada/'});
+                return ({photo: tabuada, linkPage: null});
             case 'analisador':
-                return ({photo: analisador, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Analisador-de-Numeros/'});
+                return ({photo: analisador, linkPage: null});
             case 'projetoUsuarios':
                 return ({photo: projetoUsuarios, linkPage: null});
             case 'calculadora':
                 return ({photo: calculadora, linkPage: null});
             case 'vamosContar':
-                return ({photo: vamosContar, linkPage: 'https://edertolentino.github.io/CursoEmVideo_Vamos-Contar/'});
+                return ({photo: vamosContar, linkPage: null});
                 break;
             default:
                 return ({photo: testeConjugaison, linkPage: null});
